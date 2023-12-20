@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5e4e7;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 65px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #406667;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 30px;
+}
+
+.box {
+    gap: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 657px;
+    width: 1170px;
+    border-radius: 15px;
+    flex-direction: row;
+    padding: 62.95px;
+}
+
+
+/* PRICE CARD PROPERTIES*/
+
+.price-card {
+    position: relative;
+    padding: 56.05px;
+    justify-content: space-between;
+    width: 509.564px;
+    height: 490px;
+    background-color: #00474b;
+    border-radius: 15px;
+}
+
+.price-card button {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #004849;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 397px;
+    height: 10%;
+    align-items: end;
+    border-radius: 10px;
+}
+
+
+
+.reset-button {
+    margin: 10%;
+    margin-top: 20%;
+    padding: 10px;
+    background-color: #9fe8df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* INPUT CARD PROPERTIES */
+
+.input-card {
+    position: relative;
+    justify-content: space-between;
+    width: 509.564px;
+    height: 550px;
+}
+
+.key-value-pairs p {
+    margin: 5px 0;
+}
+
+.pair {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.key-1 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.key-2 {
+    color: #649BA0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.value {
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #21c3ac;
+}
+
+.tip-buttons p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    color: #6B7777;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.tip-btns-label-1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    color: #6B7777;
+    margin-bottom: 55px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+.tip-btns-label-2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    text-align: left;
+    color: #6B7777;
+    margin-top: 55px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.tip-btn {
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 134.885px;
+    background-color: #00474b;
+    color: #FFF;
+    border: none;
+    margin: 12px;
+    margin-top: 5%;
+    padding: 15px;
+}
+
+.tip-btn:hover {
+    background-color: #9fe8dd;
+    color: #0f5659;
+}
+
+/* Inputs */
+.inputs {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-box {
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: #f3f8fb;
+    padding: 8px;
+    width: 95%;
+    color: #f4f7f7;
+    border: none;
+    cursor: pointer;
+}
+
+.input-style {
+    width: 452.613px;
+    height: 55px;
+    color: #00474B;
+    border: 2px solid #26C2AD;
+    border-radius: 10px;
+    background: #F3F8FB;
+    text-align: right;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 22px;
+}
+
+.error-message {
+    text-align: right;
+    margin-left: 25%;
+    color: #b78777;
+
+}
+
+input.invalid+.error-message {
+    display: block;
+}
+
+.icon-dollar {
+    position: absolute;
+    top: 16%;
+    left: 30px;
+    transform: translateY(-50%);
+    color: #A9C3C6;
+    z-index: 1;
+}
+
+.icon-user {
+    color: #A9C3C6;
+    left: 20px;
+    align-items: left;
+    padding: 10px;
+    min-width: 40px;
+}
+
+.input-icons i {
+    position: absolute;
+    margin-top: 40px;
+    max-width: 23.98px;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}

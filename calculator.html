@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="calculator.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@500&family=Hind+Siliguri:wght@300&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@100&family=Noto+Sans:wght@100;200;500&family=Nunito:ital,wght@0,300;0,400;1,700&family=Quicksand:wght@300&family=Roboto+Condensed:ital,wght@0,600;0,700;1,800&family=Tajawal:wght@200&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="wrapper">
+        <div class="heading">
+          <h1>Splt<br />tter</h1>
+        </div>
+        <!-- MAIN -->
+        <div class="box">
+          <!-- INPUT CARD -->
+          <div class="input-card">
+            <div class="tip-btns-label-1">
+              <label>Bill</label>
+              <i class="fa fa-dollar-sign icon-dollar fa-lg"></i>
+              <input  
+              class="input-box input-style"
+              type="text"
+              name="Bill"
+              placeholder="0"
+              />
+            </div>
+            <div class="tip-buttons">
+              <p>Select Tip %</p>
+              <button type="button" class="tip-btn">5%</button>
+              <button type="button" class="tip-btn">10%</button>
+              <button type="button" class="tip-btn">15%</button>
+              <button type="button" class="tip-btn">25%</button>
+              <button type="button" class="tip-btn">50%</button>
+              <button type="button" class="tip-btn">40%</button>
+              <div class="tip-btns-label-2">
+                <label>Number of People</label>
+                <span class="error-message" id="amount-error" >Can,t be zero</span>
+                <div class="input-icons">
+                  <i class="fa fa-user icon-user fa-lg"></i>
+                  <input
+                    required
+                    id="amount"
+                    class="input-box icon input-style"
+                    type="text"
+                    name="people"
+                    placeholder="0"
+                   
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRICE CARD -->
+          <div class="price-card">
+            <div class="key-value-pairs">
+              <div class="pair">
+                <span class="key-1"
+                  >Tip amount
+                  <div>
+                    <span class="key-2">/Person</span>
+                  </div>
+                </span>
+                <span class="value">$0.00</span>
+              </div>
+              <div class="pair">
+                <span class="key-1"
+                  >Total
+                  <div>
+                    <span class="key-2">/Person</span>
+                  </div>
+                </span>
+                <span class="value">$0.00</span>
+              </div>
+            </div>
+            <button class="reset-button">RESET</button>
+          </div>
+        </div>
+      </div> 
+  </body>
+</html>
